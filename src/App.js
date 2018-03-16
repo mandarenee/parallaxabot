@@ -12,11 +12,17 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to ParallaxBot</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className='container' >
+          <Background className='bk'>
+            <Mountains className='mid'>
+              {/* <div className='fore' style={{ background: RollingHills }}>
+                <div className='figure' style={{ background: Robot }}></div>
+              </div> */}
+            </Mountains>
+          </Background>
+        </div>
       </div>
     );
   }
