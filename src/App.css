@@ -60,7 +60,6 @@ html {
   z-index: 600;
 }
 
-
 .fore {
   position: absolute;
   top: 594px;
@@ -78,7 +77,6 @@ html {
   transform: translateZ(0);
   z-index: 400;
 }
-
 
 .bk {
   position: absolute;
