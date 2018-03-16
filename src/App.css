@@ -26,3 +26,81 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+html {
+  background: #000;
+}
+
+.container {
+  margin: 30px auto;
+  border: 1px solid #333;
+}
+
+/*--extend--*/
+.area {
+  width: 600px;
+  height: 288px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+
+.fore, .mid, .bk, .container { 
+  @extend .area;
+}
+
+.robot {
+  position: absolute;
+  top: 330px;
+  left: 450px;
+  width: 220px;
+  height: 266px;
+  backface-visibility: hidden;
+  perspective: 1000;
+  z-index: 600;
+}
+
+
+.fore {
+  position: absolute;
+  top: 585px;
+  left: 320px;
+  transform: translateZ(0);
+  animation: bk 7s -5s linear infinite;
+  z-index: 500;
+}
+
+.mid {
+  position: absolute;
+  top: 356px;
+  left: 320px;
+  animation: bk 15s -5s linear infinite;
+  transform: translateZ(0);
+  z-index: 400;
+}
+
+
+.bk {
+  position: relative;
+  top: 0;
+  left: 0;
+  animation: bk 20s -5s linear infinite;
+  transform: translateZ(0);
+  z-index: 300;
+}
+
+@keyframes walk {
+  100% { background-position: 0 -2376px; }
+}
+
+@keyframes bk {
+  100% { background-position: 200% 0; }
+}
+
+@media screen and ( max-width: 600px ) {
+  .container { 
+    width: 100%; 
+    margin-top: 0;
+  }
+  .robot { transform: translate3D(40%, 50px, 0); }
+}
