@@ -81,9 +81,9 @@ html {
 
 
 .bk {
-  position: relative;
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 219px;
+  left: 320px;
   animation: bk 20s -5s linear infinite;
   transform: translateZ(0);
   z-index: 300;
