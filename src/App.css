@@ -32,8 +32,14 @@ html {
 }
 
 .container {
+  position: absolute;
+  left: 0;
+  right: 0;
   margin: 30px auto;
   border: 1px solid #333;
+  width: 800px;
+  height: 488px;
+  overflow: hidden;
 }
 
 /*--extend--*/
@@ -44,15 +50,15 @@ html {
   backface-visibility: hidden;
   perspective: 1000;
 }
-
+/* 
 .fore, .mid, .bk, .container { 
   @extend .area;
-}
+} */
 
 .robot {
   position: absolute;
-  top: 330px;
-  left: 450px;
+  bottom: 130px;
+  left: 100px;
   width: 220px;
   height: 266px;
   backface-visibility: hidden;
@@ -63,29 +69,23 @@ html {
 
 .fore {
   position: absolute;
-  top: 585px;
-  left: 320px;
-  transform: translateZ(0);
-  animation: bk 7s -5s linear infinite;
+  bottom: 0px;
+  left: 0px;
   z-index: 500;
 }
 
 .mid {
   position: absolute;
-  top: 356px;
-  left: 320px;
-  animation: bk 15s -5s linear infinite;
-  transform: translateZ(0);
+  bottom: -1px;
+  left: 0px;
   z-index: 400;
 }
 
 
 .bk {
   position: absolute;
-  top: 219px;
-  left: 320px;
-  animation: bk 20s -5s linear infinite;
-  transform: translateZ(0);
+  bottom: 0px;
+  left: 0px;
   z-index: 300;
 }
 

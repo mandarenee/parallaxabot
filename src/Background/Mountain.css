@@ -1,0 +1,12 @@
+.mid {
+    animation: Background-slide 6s linear infinite
+}
+
+@keyframes Background-slide {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(-800px, 0);
+    }
+}
