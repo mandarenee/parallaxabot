@@ -63,7 +63,7 @@ html {
 
 .fore {
   position: absolute;
-  top: 585px;
+  top: 594px;
   left: 320px;
   transform: translateZ(0);
   animation: bk 7s -5s linear infinite;
@@ -72,7 +72,7 @@ html {
 
 .mid {
   position: absolute;
-  top: 356px;
+  top: 365px;
   left: 320px;
   animation: bk 15s -5s linear infinite;
   transform: translateZ(0);
@@ -82,7 +82,7 @@ html {
 
 .bk {
   position: absolute;
-  top: 221px;
+  top: 230px;
   left: 320px;
   animation: bk 20s -5s linear infinite;
   transform: translateZ(0);
