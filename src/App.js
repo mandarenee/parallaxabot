@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import './App.css'
+import logo from './logo.svg'
 import Background from './Background/Background'
 import Mountains from './Background/Mountains'
 import RollingHills from './Background/RollingHills'
@@ -28,4 +28,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
