@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
+import logo from './logo.svg'
 import Background from './Background/Background'
 import Mountains from './Background/Mountains'
 import RollingHills from './Background/RollingHills'
