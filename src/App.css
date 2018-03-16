@@ -31,14 +31,26 @@ html {
   background: #000;
 }
 
+.controls {
+    width:20%;
+    display:block;
+    float: left;
+    background: #af14b9;
+    position: absolute;
+    top: 230px;
+    margin-left: 30px;
+    margin-left: 30px;
+    height: 487px;
+}
+
 .container {
+  display: block;
+  clear: both;
+  width: 800px;
+  margin: 35px auto;
   position: absolute;
   left: 0;
   right: 0;
-  margin: 30px auto;
-  border: 1px solid #333;
-  width: 800px;
-  height: 488px;
   overflow: hidden;
 }
 
@@ -66,26 +78,29 @@ html {
   z-index: 600;
 }
 
-
 .fore {
   position: absolute;
   bottom: 0px;
   left: 0px;
+  transform: translateZ(0);
+  animation: bk 7s -5s linear infinite;
   z-index: 500;
 }
 
 .mid {
   position: absolute;
-  bottom: -1px;
+  bottom: 0px;
   left: 0px;
+  animation: bk 15s -5s linear infinite;
+  transform: translateZ(0);
   z-index: 400;
 }
 
-
 .bk {
-  position: absolute;
   bottom: 0px;
   left: 0px;
+  animation: bk 20s -5s linear infinite;
+  transform: translateZ(0);
   z-index: 300;
 }
 
