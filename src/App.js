@@ -1,6 +1,10 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
+import Background from './Background/Background'
+import Mountains from './Background/Mountains'
+import RollingHills from './Background/RollingHills'
+import Robot from './Robot/Robot'
 
 class App extends Component {
   render() {
