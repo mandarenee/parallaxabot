@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Mountain.css'
 
 class Mountain extends Component {
     render() {
