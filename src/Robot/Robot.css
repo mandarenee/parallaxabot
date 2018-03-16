@@ -1,0 +1,18 @@
+.robot {
+	animation: basicHover 2.5s ease-in-out 0S infinite;
+}
+
+.robot:hover {
+	transform: rotate(20deg);
+}
+
+@keyframes basicHover {
+
+
+	50% {
+		transform: translate(0, -25px);
+	}
+
+}
+
+/* cubic-bezier(0,-0.14, 1, 1.14) */
