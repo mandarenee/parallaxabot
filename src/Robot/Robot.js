@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Robot extends Component {
     render() {
         return (
-            <svg width="130px" height="154px" viewBox="0 0 130 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg className="robot" width="130px" height="154px" viewBox="0 0 130 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                 <defs>
                     <radialGradient cx="76.7244715%" cy="0%" fx="76.7244715%" fy="0%" r="51.5207999%" gradientTransform="translate(0.767245,0.000000),scale(0.994890,1.000000),rotate(119.988139),translate(-0.767245,-0.000000)" id="radialGradient-1">
                         <stop stopColor="#A1A1A1" offset="0%"></stop>

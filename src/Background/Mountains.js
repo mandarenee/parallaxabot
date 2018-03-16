@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Mountain extends Component {
     render() {
         return (
-            <svg width="800px" height="354px" viewBox="0 0 800 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg className="mid" width="800px" height="354px" viewBox="0 0 800 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                 <defs></defs>
                 <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                     <g id="Desktop-HD" transform="translate(-419.000000, -403.000000)" fill="#363636">
