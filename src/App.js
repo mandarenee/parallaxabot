@@ -15,13 +15,13 @@ class App extends Component {
           <h1 className="App-title">Welcome to ParallaxBot</h1>
         </header>
         <div className='container' >
-          <Background className='bk'>
-            <Mountains className='mid'>
+          <Background/>
+          <Mountains/>
+          <RollingHills/>
+          <Robot/>
               {/* <div className='fore' style={{ background: RollingHills }}>
                 <div className='figure' style={{ background: Robot }}></div>
               </div> */}
-            </Mountains>
-          </Background>
         </div>
       </div>
     );

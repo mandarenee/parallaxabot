@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Background extends Component {
     render() {
         return (
-            <svg width="800px" height="488px" viewBox="0 0 800 488" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg className="bk" width="800px" height="488px" viewBox="0 0 800 488" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                 <defs>
                     <linearGradient x1="47.0116454%" y1="107.400356%" x2="47.0116471%" y2="1.42364849%" id="linearGradient-1">
                         <stop stopColor="#FFFFFF" offset="0%"></stop>
