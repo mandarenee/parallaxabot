@@ -1,8 +1,8 @@
-.mid {
-    animation: Background-slide 6s linear infinite
+.fore {
+    animation: Foreground-slide 3s linear infinite
 }
 
-@keyframes Background-slide {
+@keyframes Foreground-slide {
     from {
         transform: translate(0, 0);
     }
