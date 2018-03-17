@@ -89,7 +89,7 @@ class App extends Component {
             </div>
           </div>
           <div className='container' >
-            <Background/>
+            {/* <Background/> */}
             <Mountains/>
             <RollingHills/>
             <Robot/>

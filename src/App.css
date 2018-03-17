@@ -44,14 +44,16 @@ html {
 }
 
 .container {
+  position: absolute;
   display: block;
   clear: both;
-  width: 800px;
+  height: 70%;
+  width: 400px;
   margin: 35px auto;
-  position: absolute;
   left: 0;
   right: 0;
   overflow: hidden;
+  background-image: url('/Sky.png')
 }
 
 /*--extend--*/

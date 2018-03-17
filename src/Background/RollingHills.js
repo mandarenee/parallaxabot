@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './RollingHills.css'
 
 class RollingHills extends Component {
     render() {
