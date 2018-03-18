@@ -1,0 +1,13 @@
+.midgroundTrees {
+    animation: Midground-slide 40s -5s linear infinite
+}
+
+@keyframes Midground-slide {
+    100% { background-position: 200% 0; }
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(-1600px, 0);
+    }
+}
