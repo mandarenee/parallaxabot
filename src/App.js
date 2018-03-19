@@ -7,6 +7,7 @@ import Background from './Background/Background'
 import Mountains from './Background/Mountains'
 import RollingHills from './Background/RollingHills'
 import Robot from './Robot/Robot'
+import MidgroundTrees from './Background/MidgroundTrees';
 
 class App extends Component {
   state = {
@@ -89,10 +90,10 @@ class App extends Component {
             </div>
           </div>
           <div className='container' >
-            {/* <Background/> */}
             <Mountains/>
+            <MidgroundTrees/>
             <RollingHills/>
-            <Robot/>
+            <Robot color={this.state.color}/>
           </div>
         </div>
       </div>

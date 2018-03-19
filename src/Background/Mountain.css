@@ -1,5 +1,9 @@
 .mid {
+<<<<<<< HEAD
     animation: Background-slide 6s linear infinite;
+=======
+    animation: Background-slide 60s -5s linear infinite
+>>>>>>> ac845e46b557aea1a6ac19041569543fa580c118
 }
 
 @keyframes Background-slide {
@@ -7,6 +11,6 @@
         transform: translate(0, 0);
     }
     to {
-        transform: translate(-400px, 0);
+        transform: translate(-3200px, 0);
     }
 }

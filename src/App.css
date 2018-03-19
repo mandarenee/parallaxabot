@@ -48,7 +48,7 @@ html {
   display: block;
   clear: both;
   height: 70%;
-  width: 400px;
+  width: 800px;
   margin: 35px auto;
   left: 0;
   right: 0;
@@ -84,17 +84,20 @@ html {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  transform: translateZ(0);
-  animation: bk 7s -5s linear infinite;
   z-index: 500;
+}
+
+.midgroundTrees {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 450;
 }
 
 .mid {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  animation: bk 15s -5s linear infinite;
-  transform: translateZ(0);
   z-index: 400;
 }
 
