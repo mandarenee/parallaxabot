@@ -74,9 +74,9 @@ const Robot = props => (
                                 <use fill="#03B3F0" xlinkHref="#path-4" />
                                 <use fill="#000" filter="url(#filter-6)" xlinkHref="#path-4" />
                             </g>
-                            <ellipse id="rightEye" fill="#37435B" cx="25.871" cy="12.634" rx="3.61"
+                            <ellipse id="rightEye" className="eyes" fill="#37435B" cx="25.871" cy="12.634" rx="3.61"
                                 ry="6.919" />
-                            <ellipse id="leftEye" fill="#37435B" cx="45.726" cy="12.634" rx="3.61"
+                            <ellipse id="leftEye" className="eyes" fill="#37435B" cx="45.726" cy="12.634" rx="3.61"
                                 ry="6.919" />
                             <ellipse id="highlight" fillOpacity=".25" fill="#FFF" cx="35.798" cy="5.866"
                                 rx="21.359" ry="4.061" />
