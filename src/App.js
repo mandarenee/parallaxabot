@@ -3,25 +3,24 @@ import reactCSS from 'reactcss'
 import { SketchPicker } from 'react-color'
 import './App.css'
 import logo from './logo.svg'
-import Background from './Background/Background'
 import Mountains from './Background/Mountains'
 import RollingHills from './Background/RollingHills'
 import Robot from './Robot/Robot'
 import MidgroundTrees from './Background/MidgroundTrees';
+import Slider from 'rc-slider';
+import 'rc-slider/assets/index.css';
 
 class App extends Component {
-  state = {
-    robotColor: '#fff',
-  };
   
   state = {
     displayColorPicker: false,
     color: {
-      r: '241',
-      g: '112',
-      b: '19',
+      r: '109',
+      g: '109',
+      b: '120',
       a: '1',
     },
+    movement: 50,
   };
 
   handleClick = () => {
@@ -35,6 +34,11 @@ class App extends Component {
   handleChange = (color) => {
     this.setState({ color: color.rgb })
   };
+
+  adjustValue = (value) => {
+    this.setState({movment: value})
+    console.log(value)
+  }
 
   render() {
     const styles = reactCSS({
@@ -86,7 +90,18 @@ class App extends Component {
                 <div style={styles.cover} onClick={this.handleClose} />
                 <SketchPicker color={this.state.color} onChange={this.handleChange} />
               </div> : null}
-
+              <div >
+                <p>Robot Movement</p>
+                <Slider style={{ width: '100px', display: 'inline-block'}} onChange={this.adjustValue} />
+              </div>
+              {/* <div >
+                <p>Robot Speed</p>
+                <Slider onChange={log} />
+              </div>
+              <div >
+                <p>Robot Height</p>
+                <Slider onChange={log} />
+              </div> */}
             </div>
           </div>
           <div className='container' >
