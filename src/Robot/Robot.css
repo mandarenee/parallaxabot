@@ -15,4 +15,30 @@
 
 }
 
+.robot .eyes {
+	animation: blinkEyes 300ms ease-in-out 1s 2 ;
+}
+
+html:active .robot .eyes {
+	animation: blinkAgain 150ms ease-in-out 1s 1 ;
+}
+/*
+html:active .robot .eyes {
+	animation: blinkAgain 150ms ease-in-out 0s 1 ;
+}
+*/
+@keyframes blinkEyes {
+	50% {
+		transform: scaleY(0.05);
+		transform-origin: 0px 15px;
+	}
+}
+
+@keyframes blinkAgain {
+	50% {
+		transform: scaleY(0.1);
+		transform-origin: 0px 15px;
+	}
+}
+
 /* cubic-bezier(0,-0.14, 1, 1.14) */

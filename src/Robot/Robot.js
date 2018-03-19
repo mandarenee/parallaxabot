@@ -129,14 +129,14 @@ const Robot = props => (
                         <use fill="#000" filter="url(#d)" xlinkHref="#e" />
                         <use fill="#03B3F0" xlinkHref="#e" />
                         <use fill="#000" filter="url(#f)" xlinkHref="#e" />
-                        <ellipse
+                        <ellipse className="eyes"
                             fill="#37435B"
                             cx={25.871}
                             cy={12.634}
                             rx={3.61}
                             ry={6.919}
                         />
-                        <ellipse
+                        <ellipse className="eyes"
                             fill="#37435B"
                             cx={45.726}
                             cy={12.634}
